@@ -1,0 +1,90 @@
+.crew-con {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    align-items: flex-end;
+}
+
+.crew {
+    height: 100vh;
+}
+
+.crew {
+    overflow: hidden;
+}
+
+.crew-con span {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: bold;
+    margin-right: 20px !important;
+}
+
+.crew-con img {
+    height: 500px;
+    margin-right: -150px;
+}
+
+.crew-con ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: flex-start;
+    padding: 0;
+    z-index: 10;
+}
+
+.crew-con .crew-route a {
+    width: 15px;
+    height: 15px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    font-size: 100px;
+}
+
+
+.crew-con ul a:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.crew-con .crew-route a.active-crw {
+    background-color: white;
+}
+
+.crew-con .crew-left {
+    display: flex;
+    align-items: flex-start;
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    top: -100px;
+    height: 60%;
+}
+
+.crew-con .role {
+    font-size: 32px;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+.crew-con .crew-left * {
+    margin: 0;
+}
+
+.crew-con .crew-left .crew-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.crew-con p {
+    color: #d0d6f9;
+}

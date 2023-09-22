@@ -1,0 +1,137 @@
+.destination-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 100px;
+    box-sizing: border-box;
+    color: white;
+    position: relative;
+    bottom: 0;
+    align-items: flex-end;
+    bottom: -140px;
+    left: 0;
+}
+
+.destination {
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+}
+
+.des-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 50%;
+    bottom: 0;
+    text-transform: uppercase;
+}
+
+.des-left span {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: bold;
+}
+
+.des-left img {
+    width: 400px;
+    height: 400px;
+}
+
+
+.des-text ul {
+    list-style: none;
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    font-size: 16px;
+    letter-spacing: 2.7px;
+    color: white;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+.des-text ul li a {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #d0d6f9;
+    text-decoration: none;
+    transition: 0.3s;
+    position: relative;
+}
+
+.active-des {
+    position: relative;
+}
+
+.active-des::after {
+    content: "";
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    bottom: -20px;
+    left: 0;
+}
+
+.des-text ul li a:hover::after {
+    content: "";
+    background-color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    bottom: -20px;
+    left: 0;
+}
+
+.des-text {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.des-text * {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.des-text h2 {
+    text-transform: uppercase;
+}
+
+.des-text hr {
+    border: rgba(255, 255, 255, 0.2) solid 1px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.des-text .distance h6,
+.des-text .travel h6 {
+    color: #d0d6f9;
+    text-transform: uppercase;
+}
+
+
+.des-text .distance,
+.des-text .travel {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.after-hr-des {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.des-text p {
+    color: #d0d6f9;
+}
+
+.des-text h3 {
+    color: white;
+}

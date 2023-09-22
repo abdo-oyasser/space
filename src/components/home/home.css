@@ -1,0 +1,67 @@
+.home {
+    height: 100vh;
+}
+
+.home-content {
+    position: relative;
+    top: 40%;
+    color: #d0d6f9;
+}
+
+.home-content h1 {
+    color: white;
+    text-transform: uppercase;
+}
+
+.home-content h5 {
+    text-transform: uppercase;
+}
+
+.explore {
+    width: 274px;
+    height: 274px;
+    border-radius: 50%;
+    background-color: white;
+    color: #0B0D17;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+}
+
+.home-content {
+    display: flex;
+
+    width: 100%;
+    padding: 0 100px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.home-text {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+.home-text * {
+    margin: 0;
+}
+
+.explore:hover::after {
+    content: "";
+    background-color: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    width: 374px;
+    height: 374px;
+    left: -50px;
+    top: -50px;
+}
